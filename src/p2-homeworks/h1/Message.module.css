@@ -1,0 +1,36 @@
+.msg_container {
+    position: relative;
+	width: 400px;
+	min-width: 100px;
+	height: auto;
+	padding: 20px;
+	padding-bottom: 35px;
+	margin: 15px 15px;
+	margin-bottom: 0px;
+	background: rgba(255, 255, 255, 0.55);
+	border-radius: 7px;
+	clear: both;
+}
+
+.msg_name {
+    font-weight: 600;
+    color: rgba(0, 102, 255, 0.795);
+	margin-bottom: 5px;
+}
+
+.msg_avatar img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.msg_timestamp {
+    display: block;
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	color: #AAA;
+	user-select: none;
+}
