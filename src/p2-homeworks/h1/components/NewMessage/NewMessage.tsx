@@ -4,6 +4,7 @@ import s from './NewMessage.module.css'
 type  AddMessageFuncType = {
     addMessage: (msg: string) => void
 }
+
 const NewMessage = (props: AddMessageFuncType) => {
 
     let [msg, setMsg] = useState('')
