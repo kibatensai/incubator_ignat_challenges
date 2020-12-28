@@ -6,7 +6,7 @@ export type AffairPriorityType = 'low' | 'middle' | 'high'; // need to fix any
 export type AffairType = {
     _id: number,
     name: string,
-    priority: FilterType
+    priority: AffairPriorityType
 }; // need to fix any
 export type FilterType = "all" | AffairPriorityType;
 

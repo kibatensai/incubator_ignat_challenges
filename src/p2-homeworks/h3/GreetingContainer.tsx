@@ -41,6 +41,7 @@ const GreetingContainer: FC<GreetingContainerPropsType> = ({ users, addUserCallb
     const totalUsers = 'Current amout of users is: ' + sumOfMembers(users); // need to fix
 
     return (
+        <div>
         <Greeting
             name={name}
             setNameCallback={setNameCallback}
@@ -48,6 +49,7 @@ const GreetingContainer: FC<GreetingContainerPropsType> = ({ users, addUserCallb
             error={error}
             totalUsers={totalUsers}
         />
+        </div>
     );
 }
 
