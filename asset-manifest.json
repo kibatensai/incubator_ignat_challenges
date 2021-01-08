@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/incubator_ignat_challenges/static/css/main.1ec330bd.chunk.css",
+    "main.js": "/incubator_ignat_challenges/static/js/main.b6ad16e8.chunk.js",
+    "main.js.map": "/incubator_ignat_challenges/static/js/main.b6ad16e8.chunk.js.map",
+    "runtime-main.js": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js",
+    "runtime-main.js.map": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js.map",
+    "static/js/2.490fbe74.chunk.js": "/incubator_ignat_challenges/static/js/2.490fbe74.chunk.js",
+    "static/js/2.490fbe74.chunk.js.map": "/incubator_ignat_challenges/static/js/2.490fbe74.chunk.js.map",
+    "index.html": "/incubator_ignat_challenges/index.html",
+    "precache-manifest.2421fb0cb96f58930b6e7934bee7065a.js": "/incubator_ignat_challenges/precache-manifest.2421fb0cb96f58930b6e7934bee7065a.js",
+    "service-worker.js": "/incubator_ignat_challenges/service-worker.js",
+    "static/css/main.1ec330bd.chunk.css.map": "/incubator_ignat_challenges/static/css/main.1ec330bd.chunk.css.map",
+    "static/js/2.490fbe74.chunk.js.LICENSE.txt": "/incubator_ignat_challenges/static/js/2.490fbe74.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3a332af.js",
+    "static/js/2.490fbe74.chunk.js",
+    "static/css/main.1ec330bd.chunk.css",
+    "static/js/main.b6ad16e8.chunk.js"
+  ]
+}
