@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/incubator_ignat_challenges/static/css/main.17e4d54c.chunk.css",
-    "main.js": "/incubator_ignat_challenges/static/js/main.13049552.chunk.js",
-    "main.js.map": "/incubator_ignat_challenges/static/js/main.13049552.chunk.js.map",
+    "main.js": "/incubator_ignat_challenges/static/js/main.abdf94f4.chunk.js",
+    "main.js.map": "/incubator_ignat_challenges/static/js/main.abdf94f4.chunk.js.map",
     "runtime-main.js": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js",
     "runtime-main.js.map": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js.map",
     "static/js/2.57edf4a6.chunk.js": "/incubator_ignat_challenges/static/js/2.57edf4a6.chunk.js",
     "static/js/2.57edf4a6.chunk.js.map": "/incubator_ignat_challenges/static/js/2.57edf4a6.chunk.js.map",
     "index.html": "/incubator_ignat_challenges/index.html",
-    "precache-manifest.1611ae3d8437346db7f08b5461b447ce.js": "/incubator_ignat_challenges/precache-manifest.1611ae3d8437346db7f08b5461b447ce.js",
+    "precache-manifest.958fd456f32b00752272f0e4a956a1aa.js": "/incubator_ignat_challenges/precache-manifest.958fd456f32b00752272f0e4a956a1aa.js",
     "service-worker.js": "/incubator_ignat_challenges/service-worker.js",
     "static/css/main.17e4d54c.chunk.css.map": "/incubator_ignat_challenges/static/css/main.17e4d54c.chunk.css.map",
     "static/js/2.57edf4a6.chunk.js.LICENSE.txt": "/incubator_ignat_challenges/static/js/2.57edf4a6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c3a332af.js",
     "static/js/2.57edf4a6.chunk.js",
     "static/css/main.17e4d54c.chunk.css",
-    "static/js/main.13049552.chunk.js"
+    "static/js/main.abdf94f4.chunk.js"
   ]
 }
