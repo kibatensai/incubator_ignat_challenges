@@ -1,7 +1,71 @@
-.someClass {
-
+.add_button {
+    background: none;
+    border: 2px solid;
+    border-radius: 10px;
+    color: #0051ff;
+    font: inherit;
+    line-height: 1;
+    margin: .2em;
+    margin-top: .5em;
+    padding: .5em 1em;
+    transition: 0.7s;
 }
+
+.add_button:hover {
+        box-shadow: 0 0 10px 2px rgba(79, 105, 219, 0.7);
+        background-color: #0051ff9c;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+.number_of_users {
+    max-width: 12%;
+    padding: .5rem;
+    margin: 10px;
+    text-shadow: rgb(68, 0, 255) 2px 0 10px;
+    border: 1px solid #1C6EA4;
+    background-color:#0051ff9c;
+    border-radius: 15px;
+}
+
+
+.input_styling {
+    width: 12%;
+    font-size: 18px;
+    border: 2px solid #0051ff9c;
+    background-color: #298ce942;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 10px;
+    outline-style: none;
+    transition: box-shadow .7s;
+}
+
+.input_styling:hover {
+    outline-style: none;
+    box-shadow: 5px 5px 3px rgba(110, 20, 212, 0.637);
+    border-radius: 15px;
+}
+
 
 .error {
-    border: 1px solid red;
+    width: 12%;
+    font-size: 18px;
+    background-color: #298ce942;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 10px;
+    transition: box-shadow 1s;
+    outline-style: none;
+    -webkit-box-shadow: 1px 0px 30px 0px rgba(57, 94, 253, 0.82);
+    -moz-box-shadow:    1px 0px 30px 0px rgba(57, 94, 253, 0.82);
+    box-shadow:         1px 0px 30px 0px rgba(57, 94, 253, 0.82);
 }
+
+.error:hover { 
+    outline-style: none;
+    box-shadow: 5px 5px 3px rgba(110, 20, 212, 0.637);
+    border-radius: 15px;
+}
+
+
+
