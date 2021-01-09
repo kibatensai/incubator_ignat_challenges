@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import { HashRouter, Switch, Route, Redirect } from 'react-router-dom'
+import React from "react";
+import { Switch, Route, Redirect } from 'react-router-dom'
 import Error404 from "./pages/Error404";
 import Junior from "./pages/Junior";
 import JuniorPlus from "./pages/JuniorPlus";
@@ -7,6 +7,7 @@ import PreJunior from "./pages/PreJunior";
 
 
 export const PATH = {
+    HOME: '/',
     PRE_JUNIOR: "/pre-junior",
     JUNIOR: "/junior",
     JUNIOR_PLUS: "/junior-plus"
@@ -21,7 +22,8 @@ const Routes = () => {
 
             {/*в начале мы попадаем на страницу "/" и переходим сразу на страницу PRE_JUNIOR*/}
             {/*exact нужен чтоб указать полное совподение (что после "/" ничего не будет)*/}
-            <Route path={"/"} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>
+            <Route path={PATH.HOME} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>
+
 
             <Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>
             <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
