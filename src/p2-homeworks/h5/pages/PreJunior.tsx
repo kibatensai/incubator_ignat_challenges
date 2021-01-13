@@ -1,10 +1,10 @@
 import React from "react";
+import HW6 from '../../h6/HW6'
 
 function PreJunior() {
     return (
         <div>
-            {/*<HW6/>*/}
-            This is Pre-Junior page
+            <HW6/>
         </div>
     );
 }

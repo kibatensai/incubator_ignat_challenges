@@ -1,6 +1,25 @@
+.input_container {
+    position:relative;
+    margin-bottom:50px;
+    margin-top: 24px;
+}
+
+
 .superInput {
-    background: blue;
-    border: 3px solid white;
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:100%;
+    padding:15px 0 15px 0;
+    font-size:24px;
+    font-weight: 600;
+    color:rgb(216, 229, 241);
+}
+
+.superInput:focus {
+    border:none;	
+    outline:none;
+    border-bottom:1px solid  rgb(216, 229, 241);	
 }
 
 .errorInput {
