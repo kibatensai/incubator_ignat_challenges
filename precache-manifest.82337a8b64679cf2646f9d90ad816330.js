@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82d2a4a81305fc25d89d0027b739b080",
+    "revision": "03c70c6c90c89a1c3587530756a311fa",
     "url": "/incubator_ignat_challenges/index.html"
   },
   {
-    "revision": "85f80e09defd2dc171e7",
+    "revision": "879f02e10acf522c16d7",
     "url": "/incubator_ignat_challenges/static/css/main.0863277d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/incubator_ignat_challenges/static/js/2.c256946f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85f80e09defd2dc171e7",
-    "url": "/incubator_ignat_challenges/static/js/main.c80a7e63.chunk.js"
+    "revision": "879f02e10acf522c16d7",
+    "url": "/incubator_ignat_challenges/static/js/main.b970018d.chunk.js"
   },
   {
     "revision": "d54732af48ad2cfd9e12",
