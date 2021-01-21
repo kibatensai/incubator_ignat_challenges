@@ -42,9 +42,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
     )) : [];
 
     return (
-        <>
+        <div className={style.radio_wrapper}>
             {mappedOptions}
-        </>
+        </div>
     );
 }
 
