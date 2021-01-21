@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+
+.custom_select {
+    font-family: 'Roboto Mono';
+    font-size: 24px;
+    position: relative;
+    display: block;
+    max-width: 400px;
+    min-width: 180px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 150px;
+    color:rgb(156, 217, 241);
+    border: 1px solid #8964ce8e;
+    border-radius: 3px;
+    background-color: #b297e48e;
+    transition: .7s;
+    animation: fadeIn 0.7s ease-in-out;
+
+}
+
+.custom_select:hover {
+    box-shadow: 0 0.5em 0.7em -0.25em #00b3db;
+    transform: translateY(-0.2em);
+}
+
+.custom_option {
+    color: #714BB9;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}

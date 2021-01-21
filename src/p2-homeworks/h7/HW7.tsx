@@ -3,14 +3,15 @@ import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
 import SuperRadio from "./common/c6-SuperRadio/SuperRadio";
 
 const arr = ["x", "y", "z"];
+const testArr = ['1', '2', '3', '4']
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1]);
+    const [selected, setSelected] = useState<any>(testArr[0])
+   
 
     return (
         <div>
-            <hr/>
-            homeworks 7
 
             {/*should work (должно работать)*/}
             <div>
@@ -23,17 +24,17 @@ function HW7() {
             <div>
                 <SuperRadio
                     name={"radio"}
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
+                    options={testArr}
+                    value={selected}
+                    onChangeOption={setSelected}
                 />
             </div>
 
-            <hr/>
+            
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperSelect/>*/}
             {/*<AlternativeSuperRadio/>*/}
-            <hr/>
+         
         </div>
     );
 }
