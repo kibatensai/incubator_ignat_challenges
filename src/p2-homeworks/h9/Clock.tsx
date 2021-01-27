@@ -40,10 +40,8 @@ function Clock() {
                 onMouseLeave={onMouseLeave}
             >
                 <div>
-                {stringTime}
+                    {stringTime}
                 </div>
-
-                
                     {show && (
                     <div className={style.clock_date}>
                         {stringDate}

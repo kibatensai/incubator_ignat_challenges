@@ -7,8 +7,6 @@ function HW9() {
 
             {/*should work (должно работать)*/}
             <Clock/>
-
-            
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeClock/>*/}
            
