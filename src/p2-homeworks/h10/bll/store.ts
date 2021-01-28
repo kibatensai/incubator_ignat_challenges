@@ -1,3 +1,4 @@
+import { themeReducer } from './../../h12/bll/themeReducer';
 import { combineReducers } from 'redux';
 import { createStore } from 'redux';
 import {loadingReducer} from "./loadingReducer";
@@ -5,6 +6,7 @@ import { Store } from 'redux'
 
 const reducers = combineReducers({
     loading: loadingReducer,
+    theme: themeReducer
 
 });
 
