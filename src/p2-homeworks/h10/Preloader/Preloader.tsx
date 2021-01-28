@@ -1,8 +1,8 @@
 import React from 'react'
-import preloader from '../../assets/dblringloading.svg'
+import preloader from '../../assets/dbringload.svg'
 
 export const Preloader = () => {
     return <div>
-        <img src={preloader} />
+        <img src={preloader} alt='loading'/>
     </div>
 }

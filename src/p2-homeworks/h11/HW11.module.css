@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+
+
+.HW11_styling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.super_range{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.super_range_value {
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(196, 211, 238, 0.87);
+}
