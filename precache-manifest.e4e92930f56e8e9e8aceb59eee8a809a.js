@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f091cfb99e3fd98e6af002b50172e16a",
+    "revision": "0a69509b7123ee0f0f597591174078cd",
     "url": "/incubator_ignat_challenges/index.html"
   },
   {
-    "revision": "efdae1fb130867c3fd86",
-    "url": "/incubator_ignat_challenges/static/css/main.0614301c.chunk.css"
+    "revision": "0652589e8b7a9af3da71",
+    "url": "/incubator_ignat_challenges/static/css/main.f481aa74.chunk.css"
   },
   {
-    "revision": "b3d25b6c86f06978c6d8",
-    "url": "/incubator_ignat_challenges/static/js/2.64f46ac1.chunk.js"
+    "revision": "f29e5cc30969b7deba43",
+    "url": "/incubator_ignat_challenges/static/js/2.1c743e46.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/incubator_ignat_challenges/static/js/2.64f46ac1.chunk.js.LICENSE.txt"
+    "url": "/incubator_ignat_challenges/static/js/2.1c743e46.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "efdae1fb130867c3fd86",
-    "url": "/incubator_ignat_challenges/static/js/main.162013aa.chunk.js"
+    "revision": "0652589e8b7a9af3da71",
+    "url": "/incubator_ignat_challenges/static/js/main.a1a0661c.chunk.js"
   },
   {
     "revision": "d54732af48ad2cfd9e12",
