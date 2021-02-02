@@ -11,14 +11,14 @@ export type CheckAgeActionType = {
 export type ActionsType = SortNamesActionType
                         | CheckAgeActionType
 
-export type ArrayType = {
+export type ObjectType = {
     _id: number,
     name: string,
     age: number
 }
 
 
-export const homeWorkReducer = (state: any, action: ActionsType): Array<ArrayType> => {
+export const homeWorkReducer = (state: any, action: ActionsType): Array<ObjectType> => {
     switch (action.type) {
         case "sort": 
             if(action.payload === 'up') { 
