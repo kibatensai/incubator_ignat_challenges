@@ -4,7 +4,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import { loadingAC } from "./bll/loadingReducer";
 import { AppStoreType } from "./bll/store";
 import { Preloader } from "./Preloader/Preloader";
-import style from '../h10/bll/HW10.module.css'
+import style from '../h10/HW10.module.css'
 
 function HW10() {
     // useSelector, useDispatch
