@@ -27,7 +27,7 @@ function HW8() {
 
     return (
         <div className={style.hw8_styling}>
-            <hr/>
+
 
             {/*should work (должно работать)*/}
         <div className={style.list}>
@@ -40,10 +40,10 @@ function HW8() {
         </div>
             
 
-            <hr/>
+
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
-            <hr/>
+
         </div>
     );
 }
