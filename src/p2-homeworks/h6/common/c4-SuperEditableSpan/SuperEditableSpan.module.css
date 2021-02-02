@@ -1,0 +1,36 @@
+.p_styling {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    background: linear-gradient(to bottom, rgb(172, 199, 223),rgb(172, 199, 223) 60%, #fff 60%, #fff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    transition: background 0.2s ease-out;
+    white-space: nowrap;
+}
+
+.span_styling {
+    position: relative;
+}
+
+.span_styling:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 11px;
+    background: rgba(216, 229, 241, 0.575);
+    bottom: 7px;
+    transition: all 0.2s ease-out;
+}
+
+.p_styling:hover {
+    background-position: 0 11px;
+}
+
+.span_styling:hover:before {
+    transform: translateY(10px)
+}
