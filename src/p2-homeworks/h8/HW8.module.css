@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+
+.hw8_styling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+    color:rgb(243, 205, 243);
+    text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
+   
+}
+
+.list {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 5px solid rgba(196, 211, 238, 0.815);
+    height: 230px;
+    transition: all .4s;
+}
+
+.list:hover {
+    box-shadow: 0.5em 0.5em 0.7em -0.25em #00b3db;
+    background-color: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+.list_item {
+    padding: 7px;
+    
+}
