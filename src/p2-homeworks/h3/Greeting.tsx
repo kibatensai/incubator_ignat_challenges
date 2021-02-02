@@ -1,4 +1,6 @@
 import React, { ChangeEvent, FC } from "react";
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import s from "./Greeting.module.css";
 
 type GreetingPropsType = {
@@ -13,16 +15,18 @@ type GreetingPropsType = {
 const Greeting: FC<GreetingPropsType> = (
     { name, setNameCallback, addUser, error, totalUsers } // деструктуризация пропсов
 ) => {
-    const inputClass = s.error // need to fix with (?:)
+    const inputClass = error ? s.error : s.input_styling // need to fix with (?:)
 
 
     return (
         <div>
-            <input value={name}
+            <SuperInputText value={name}
                 placeholder={error ? `Please, enter your name :)` : ''}
                 onChange={setNameCallback}
-                className={`${error ? inputClass : s.input_styling}`} />
-            <button className={s.add_button} onClick={addUser}>add</button>
+                className={inputClass} />
+            <SuperButton className={s.add_button} onClick={addUser}>
+                add
+            </SuperButton>
             <div className={s.number_of_users}>{totalUsers}</div>
         </div>
     );
