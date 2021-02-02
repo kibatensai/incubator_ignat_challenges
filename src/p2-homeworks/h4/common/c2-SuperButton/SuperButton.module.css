@@ -6,7 +6,8 @@
     color: rgb(216, 229, 241);
     transition: 0.7s;
     font: 300 1em 'Fira Sans', sans-serif;
-    background: hsla(228, 41%, 61%, 0.144)
+    background: hsla(228, 41%, 61%, 0.144);
+    animation: fadeIn 0.7s ease-in-out;
 }
 
 
@@ -23,4 +24,15 @@
 
 .red {
     background: red;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
 }
