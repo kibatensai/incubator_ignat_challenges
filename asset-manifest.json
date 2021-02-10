@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/incubator_ignat_challenges/static/css/main.f481aa74.chunk.css",
-    "main.js": "/incubator_ignat_challenges/static/js/main.a1a0661c.chunk.js",
-    "main.js.map": "/incubator_ignat_challenges/static/js/main.a1a0661c.chunk.js.map",
+    "main.css": "/incubator_ignat_challenges/static/css/main.c6def78f.chunk.css",
+    "main.js": "/incubator_ignat_challenges/static/js/main.faacba0d.chunk.js",
+    "main.js.map": "/incubator_ignat_challenges/static/js/main.faacba0d.chunk.js.map",
     "runtime-main.js": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js",
     "runtime-main.js.map": "/incubator_ignat_challenges/static/js/runtime-main.c3a332af.js.map",
-    "static/js/2.1c743e46.chunk.js": "/incubator_ignat_challenges/static/js/2.1c743e46.chunk.js",
-    "static/js/2.1c743e46.chunk.js.map": "/incubator_ignat_challenges/static/js/2.1c743e46.chunk.js.map",
+    "static/js/2.600b35f3.chunk.js": "/incubator_ignat_challenges/static/js/2.600b35f3.chunk.js",
+    "static/js/2.600b35f3.chunk.js.map": "/incubator_ignat_challenges/static/js/2.600b35f3.chunk.js.map",
     "index.html": "/incubator_ignat_challenges/index.html",
-    "precache-manifest.e4e92930f56e8e9e8aceb59eee8a809a.js": "/incubator_ignat_challenges/precache-manifest.e4e92930f56e8e9e8aceb59eee8a809a.js",
+    "precache-manifest.5436554c12fb251ea612107b8e089bb3.js": "/incubator_ignat_challenges/precache-manifest.5436554c12fb251ea612107b8e089bb3.js",
     "service-worker.js": "/incubator_ignat_challenges/service-worker.js",
-    "static/css/main.f481aa74.chunk.css.map": "/incubator_ignat_challenges/static/css/main.f481aa74.chunk.css.map",
-    "static/js/2.1c743e46.chunk.js.LICENSE.txt": "/incubator_ignat_challenges/static/js/2.1c743e46.chunk.js.LICENSE.txt",
+    "static/css/main.c6def78f.chunk.css.map": "/incubator_ignat_challenges/static/css/main.c6def78f.chunk.css.map",
+    "static/js/2.600b35f3.chunk.js.LICENSE.txt": "/incubator_ignat_challenges/static/js/2.600b35f3.chunk.js.LICENSE.txt",
     "static/media/dbringload.svg": "/incubator_ignat_challenges/static/media/dbringload.a7b07211.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c3a332af.js",
-    "static/js/2.1c743e46.chunk.js",
-    "static/css/main.f481aa74.chunk.css",
-    "static/js/main.a1a0661c.chunk.js"
+    "static/js/2.600b35f3.chunk.js",
+    "static/css/main.c6def78f.chunk.css",
+    "static/js/main.faacba0d.chunk.js"
   ]
 }
