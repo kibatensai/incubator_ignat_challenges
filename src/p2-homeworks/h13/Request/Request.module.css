@@ -1,0 +1,11 @@
+.requestContainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.responseStyling {
+    padding: 25px;
+    font-size: 18px;
+}
